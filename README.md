@@ -1,37 +1,25 @@
-# PROJECT NAME
+# TDD Project
 
 > Description the project.
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- Major languages: Ruby
 
-## Live Demo (if available)
-
-[Live Demo Link](https://livedemo.com)
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
 To get a local copy up and running follow these simple example steps.
 
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
-## Authors
+To get a local copy of the project, follow these steps: 
+1. Open the terminal and navigate to the folder where you would like to put these files.
+2. Type the following commands into the terminal: 
+ ```
+ git clone https://github.com/RaoAkif/TDD_Project
+ ```
+ ```
+ cd TDD_Project
+ ```
 
 👤 **Author**
 
