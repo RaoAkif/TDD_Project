@@ -22,6 +22,9 @@ describe Solver do
     it 'reverse returns a string' do
       expect(solver.reverse('hello')).to be_a(String)
     end
+    it 'fizzbuzz returns a string' do
+      expect(solver.fizzbuzz(5)).to be_a(String)
+    end
 
   end
 
