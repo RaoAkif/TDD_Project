@@ -9,6 +9,7 @@ class Solver
     word
   end
 
-  def fizzbuzz
+  def fizzbuzz(n)
+    return 'n'
   end
 end
