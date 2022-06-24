@@ -3,4 +3,7 @@ class Solver
 
   def factorial
   end
+
+  def reverse
+  end
 end
