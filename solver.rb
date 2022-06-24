@@ -6,4 +6,7 @@ class Solver
 
   def reverse
   end
+
+  def fizzbuzz
+  end
 end
