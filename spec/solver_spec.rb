@@ -49,8 +49,22 @@ describe Solver do
   end
 end
 
-describe 'reverse' do
-  it 'returns the reverse of the word' do
-    expect(solver.reverse('hello')).to eq('olleh')
+# describe 'reverse' do
+#   it 'returns the reverse of the word' do
+#     expect(solver.reverse('hello')).to eq('olleh')
+#   end
+# end
+
+describe 'fizzbuzz' do
+  it 'returns "fizz" for multiples of 3' do
+    expect(solver.fizzbuzz(3)).to eq('fizz')
+  end
+
+  it 'returns "buzz" for multiples of 5' do
+    expect(solver.fizzbuzz(5)).to eq('buzz')
+  end
+
+  it 'returns "fizzbuzz" for multiples of 3 and 5' do
+    expect(solver.fizzbuzz(15)).to eq('fizzbuzz')
   end
 end
