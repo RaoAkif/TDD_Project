@@ -10,6 +10,9 @@ describe Solver do
     it 'has a reverse method' do
       expect(solver).to respond_to(:reverse)
     end
+    it 'has a fizzbuzz method' do
+      expect(solver).to respond_to(:fizzbuzz)
+    end
   end
 
 end
