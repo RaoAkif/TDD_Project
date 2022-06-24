@@ -15,4 +15,13 @@ describe Solver do
     end
   end
 
+  describe 'returns a correct value' do
+    it 'factorial takes number returns a number' do
+      expect(solver.factorial(5)).to be_a(Integer)
+    end
+
+
+  end
+
+
 end
