@@ -48,3 +48,9 @@ describe Solver do
     expect(solver.factorial('a')).to be_nil
   end
 end
+
+describe 'reverse' do
+  it 'returns the reverse of the word' do
+    expect(solver.reverse('hello')).to eq('olleh')
+  end
+end
