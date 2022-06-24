@@ -1,7 +1,8 @@
 class Solver
   solver = Solver.new
 
-  def factorial
+  def factorial(num)
+    num
   end
 
   def reverse
