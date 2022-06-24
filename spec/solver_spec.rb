@@ -19,7 +19,9 @@ describe Solver do
     it 'factorial takes number returns a number' do
       expect(solver.factorial(5)).to be_a(Integer)
     end
-
+    it 'reverse returns a string' do
+      expect(solver.reverse('hello')).to be_a(String)
+    end
 
   end
 
