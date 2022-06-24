@@ -25,8 +25,12 @@ describe Solver do
     it 'fizzbuzz returns a string' do
       expect(solver.fizzbuzz(5)).to be_a(String)
     end
-
   end
-
+  
+  describe 'factorial' do
+    it 'returns the factorial of the number' do
+      expect(solver.factorial(5)).to eq(120)
+    end
+  end
 
 end
